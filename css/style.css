@@ -1,0 +1,95 @@
+@charset "utf-8";
+input:hover {
+    color: blueviolet;
+    
+}
+body {
+    background-color: antiquewhite;
+}
+.parent {
+    height: 350px;
+    width: 850px;
+    position: relative;
+    background-color: black;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 8%;
+    border-style:solid;
+    border-color: black;
+    
+    
+}
+.child {
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    
+}
+.child2 {
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 50%;
+    background-image: url(../img/Frontend-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right-style: solid;
+    border-right-color: black;
+}
+.leftHeading {
+    padding-left: 40px;
+    padding-top: 15%;
+    color: azure;
+    font-style: oblique;
+    font-weight: 600;
+}
+.leftP {
+    padding-left: 40px;
+    color: azure;
+    font-size: small;
+    font-style: italic;
+}
+.leftLink {
+    
+    color: azure;
+    font-size: small;
+    font-style: italic;
+    font-weight: 700;
+    padding-left: 30px;
+    flex-direction: row;
+}
+.rightHeading {
+    padding-left: 40px;
+    padding-top: 15%;
+    color:blueviolet;
+    font-style: oblique;
+    font-weight: 600;
+
+}
+.form1 {
+    padding-left: 40px;
+    color: blueviolet;
+    font-size: medium;
+    font-weight: 500;
+}
+.form2 {
+    padding-left: 40px;
+    color: blueviolet;
+    font-size: medium;
+    font-weight: 500;
+}
+input {
+    border-color: white;
+    border-bottom-color: blueviolet;
+    border-style: solid;
+    
+
+}
+.submit {
+    position: absolute;
+    left: 30px;
+    background-color: white;
+
+}
